@@ -80,6 +80,10 @@ a {
 }
 /* reusable button end */
 
+main {
+  background: #f5f8ff;
+}
+
 /* >>>>>First Section<<<<< */
 .firstSection {
   margin: 115px 150px;
@@ -156,4 +160,96 @@ a {
   font-size: 20px;
   font-weight: 400;
   text-align: center;
+}
+
+/* >>>>>Third Section<<<<< */
+
+.thirdSection {
+  margin: 0px 150px 135px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 50px;
+}
+
+.thirdSection h3 {
+  color: rgb(37, 36, 50);
+  font-family: Raleway;
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.thirdSectionBottom {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.reviewCard {
+  padding: 24px;
+  box-sizing: border-box;
+  border: 1px solid rgb(242, 237, 237);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.5);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+
+.rating {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 4px;
+}
+
+.reviewCard h4 {
+  margin-top: 16px;
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.reviewCard p{
+margin-bottom: 16px;
+color: rgb(30, 30, 30);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+max-width: 318px;
+}
+
+.reviewerInfo {
+  display: flex;
+  justify-content: left;
+  align-items:flex-start;
+  gap: 12px;
+}
+.reviewerInfo Img{
+  border-radius: 50%;
+}
+
+.reviewerInfoRight h5{
+  color: rgb(117, 117, 117);
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+text-align: left;
+}
+
+.reviewerInfoRight p{
+  color: rgb(179, 179, 179);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
 }
