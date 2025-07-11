@@ -9,7 +9,7 @@
 /* header/hero section */
 
 header {
-  background-image: url("assets/Hero-bg.png");
+  background-image: url(../assets/Hero-bg.png);
   background-size: cover;
   width: auto;
   height: 700px;
@@ -23,6 +23,8 @@ header li {
 a {
   text-decoration: none;
   color: rgb(255, 255, 255);
+  transition: color 0.3s ease;
+  
 }
 
 #navLogo {
@@ -59,6 +61,8 @@ a {
 
 /* heder end */
 
+
+
 /* reusable: common properties for button */
 #btnCommon {
   border: none;
@@ -76,17 +80,22 @@ a {
   letter-spacing: 0%;
   text-align: center;
 
-  transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  transition: background 0.3s ease, transform 0.2s ease;
   cursor: pointer;
 }
 
 #btnCommon:hover {
-  background: rgb(48, 177, 200); 
-  color: rgb(255, 0, 0);   
+  background: rgb(48, 177, 200);  
   transform: scale(1.05);
 }
 
+a:hover{
+  color: rgb(0, 0, 0);  
+}
+
 /* reusable button end */
+
+
 
 main {
   background: #f5f8ff;
@@ -126,6 +135,8 @@ main {
 .firstSection img {
   border-radius: 48px;
 }
+
+
 
 /* >>>>>Second Section<<<<< */
 .secondSection {
@@ -170,6 +181,9 @@ main {
   font-weight: 400;
   text-align: center;
 }
+
+
+
 
 /* >>>>>Third Section<<<<< */
 
@@ -262,6 +276,8 @@ main {
   font-weight: 400;
   text-align: left;
 }
+
+
 /* Fourth Section */
 .fourthSection {
   margin: 0px 150px 90px;
@@ -294,6 +310,8 @@ main {
 .fourthSection Img {
   border-radius: 48px;
 }
+
+
 
 /* Fifth Section */
 .fifthSection {
@@ -436,3 +454,6 @@ footer a {
   align-items: center;
   gap: 48px;
 }
+
+
+/* M Israk Ahmed; email>> israkahmed.cse@gmail.com*/
