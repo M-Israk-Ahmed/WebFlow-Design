@@ -1,0 +1,123 @@
+/* imported the Inter and Raleway font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* global declaration */
+* {
+  margin: 0px;
+}
+
+/* header/hero section */
+
+header {
+  background-image: url(/assets/Hero-bg.png);
+  background-size: cover;
+  width: auto;
+  height: 700px;
+  padding: 0px 150px;
+
+  font-family: Raleway;
+}
+header li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+#navLogo {
+  color: rgb(78, 71, 255);
+  font-family: Inter;
+  font-size: 34px;
+  font-weight: 900;
+  text-align: left;
+}
+
+.navBar ul{
+    height: 151px;
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    /* border: 1px solid black; used for debugging */
+}
+.heroMid h1{
+  padding: 0px 120px;
+  color: rgb(37, 36, 50);
+  font-size: 65px;
+  font-weight: 700;
+}
+.heroMid{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 37px;
+  text-align: center;
+  margin: 150px 0px 150px 0px;
+}
+
+/* heder end */
+
+/* reusable: common properties for button */
+#btnCommon {
+  border: none;
+  width: fit-content;
+  height: fit-content;
+  padding: 12px 36px 12px 36px;
+  border-radius: 10px;
+  background: rgb(78, 71, 255);
+
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+
+  cursor: pointer;
+}
+/* reusable button end */
+
+/* >>>>>First Section<<<<< */
+.firstSection{
+  margin: 115px 150px;
+  /* border: 1px solid black; */
+
+  font-family: Raleway;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 320px;
+}
+
+.firstSectionLeft{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  gap: 23px;
+
+}
+.firstSectionLeft h2{
+  color: rgb(37, 36, 50);
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.firstSectionLeft p{
+  color: rgba(37, 36, 50, 0.5);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.firstSection img{
+  border-radius: 48px;
+}
+
+/* >>>>>Second Section<<<<< */
+.secondSection{
+  
+}
