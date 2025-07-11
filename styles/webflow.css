@@ -33,21 +33,21 @@ a {
   text-align: left;
 }
 
-.navBar ul{
-    height: 151px;
+.navBar ul {
+  height: 151px;
 
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    /* border: 1px solid black; used for debugging */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; used for debugging */
 }
-.heroMid h1{
+.heroMid h1 {
   padding: 0px 120px;
   color: rgb(37, 36, 50);
   font-size: 65px;
   font-weight: 700;
 }
-.heroMid{
+.heroMid {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -81,10 +81,8 @@ a {
 /* reusable button end */
 
 /* >>>>>First Section<<<<< */
-.firstSection{
+.firstSection {
   margin: 115px 150px;
-  /* border: 1px solid black; */
-
   font-family: Raleway;
 
   display: flex;
@@ -93,31 +91,69 @@ a {
   gap: 320px;
 }
 
-.firstSectionLeft{
+.firstSectionLeft {
   display: flex;
   flex-direction: column;
   justify-content: left;
   align-items: left;
   gap: 23px;
-
 }
-.firstSectionLeft h2{
+.firstSectionLeft h2 {
   color: rgb(37, 36, 50);
   font-size: 42px;
   font-weight: 700;
 }
 
-.firstSectionLeft p{
+.firstSectionLeft p {
   color: rgba(37, 36, 50, 0.5);
   font-size: 24px;
   font-weight: 400;
 }
 
-.firstSection img{
+.firstSection img {
   border-radius: 48px;
 }
 
 /* >>>>>Second Section<<<<< */
-.secondSection{
-  
+.secondSection {
+  margin: 0px 150px 135px;
+  padding: 50px 80px;
+
+  border-radius: 24px;
+  background: rgba(78, 71, 255, 0.1);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.secondSection h3 {
+  color: rgb(37, 36, 50);
+  font-family: Raleway;
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+}
+.secondSectionBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 160px;
+}
+
+.secondSectionBottom h1 {
+  color: rgb(78, 71, 255);
+  font-family: Inter;
+  font-size: 80px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.secondSectionBottom p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
 }
