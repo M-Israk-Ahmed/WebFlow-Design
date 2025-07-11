@@ -368,3 +368,53 @@ input[type="text"] {
 
   cursor: pointer;
 }
+
+/* Footer */
+footer {
+  padding: 104px 455px;
+}
+
+.footnote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 20px;
+}
+
+footer h1 {
+  color: rgb(78, 71, 255);
+  font-family: Inter;
+  font-size: 100px;
+  font-weight: 900;
+  /* margin: 8px 0px; */
+  text-align: center;
+}
+
+footer p {
+  color: rgb(137, 135, 161);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(137, 135, 161);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footnote ul {
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
