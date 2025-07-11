@@ -86,7 +86,8 @@ main {
 
 /* >>>>>First Section<<<<< */
 .firstSection {
-  margin: 115px 150px;
+  padding: 115px 0px;
+  margin: 0px 150px;
   font-family: Raleway;
 
   display: flex;
@@ -184,7 +185,7 @@ main {
 
 .thirdSectionBottom {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
@@ -218,38 +219,70 @@ main {
   text-align: left;
 }
 
-.reviewCard p{
-margin-bottom: 16px;
-color: rgb(30, 30, 30);
-font-family: Inter;
-font-size: 16px;
-font-weight: 400;
-text-align: left;
-max-width: 318px;
+.reviewCard p {
+  margin-bottom: 16px;
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  max-width: 318px;
 }
 
 .reviewerInfo {
   display: flex;
   justify-content: left;
-  align-items:flex-start;
+  align-items: flex-start;
   gap: 12px;
 }
-.reviewerInfo Img{
+.reviewerInfo Img {
   border-radius: 50%;
 }
 
-.reviewerInfoRight h5{
+.reviewerInfoRight h5 {
   color: rgb(117, 117, 117);
-font-family: Inter;
-font-size: 16px;
-font-weight: 600;
-text-align: left;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
 }
 
-.reviewerInfoRight p{
+.reviewerInfoRight p {
   color: rgb(179, 179, 179);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+/* Fourth Section */
+.fourthSection {
+  margin: 0px 150px 90px;
+  border-radius: 14px;
+  background: rgb(255, 255, 255);
+  padding: 70px 150px 70px 150px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.fourthSection h2 {
+  color: rgb(0, 0, 0);
+  font-family: Raleway;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.fourthSection p{
+  color: rgba(0, 0, 0, 0.5);
 font-family: Inter;
 font-size: 16px;
 font-weight: 400;
-text-align: left;
+text-align: center;
+}
+
+.fourthSection Img{
+  border-radius: 48px;
 }
