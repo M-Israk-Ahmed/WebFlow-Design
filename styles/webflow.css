@@ -9,7 +9,7 @@
 /* header/hero section */
 
 header {
-  background-image: url(/assets/Hero-bg.png);
+  background-image: url(./assets/Hero-bg.png);
   background-size: cover;
   width: auto;
   height: 700px;
@@ -76,8 +76,16 @@ a {
   letter-spacing: 0%;
   text-align: center;
 
+  transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
   cursor: pointer;
 }
+
+#btnCommon:hover {
+  background: rgb(48, 177, 200); 
+  color: rgb(255, 0, 0);   
+  transform: scale(1.05);
+}
+
 /* reusable button end */
 
 main {
@@ -366,8 +374,18 @@ input[type="text"] {
   letter-spacing: 0%;
   text-align: center;
 
+  transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
   cursor: pointer;
+  
 }
+
+#btnForm:hover {
+  background: rgb(48, 177, 200); 
+  color: rgb(250, 1, 1) !important; 
+  transform: scale(1.05);
+}
+
+
 
 /* Footer */
 footer {
